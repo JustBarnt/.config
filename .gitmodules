@@ -1,6 +1,7 @@
-[submodule "justnvim"]
-	path = justnvim
-	url = https://github.com/justbarnt/justnvim
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/justbarnt/justnvim
+[submodule "nvim-justbarnt"]
+	path = nvim-justbarnt
+	url = https://github.com/justbarnt/justnvim
+	branch = feat-2.0
