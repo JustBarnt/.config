@@ -1,0 +1,6 @@
+[submodule "justnvim"]
+	path = justnvim
+	url = https://github.com/justbarnt/justnvim
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/justbarnt/justnvim
