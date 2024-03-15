@@ -1,5 +1,8 @@
 neofetch/
 lazygit/
 zsh/antigen/*
+zsh/.zcompdump
+zsh/.zshrc.wc
 !zsh/antigen/antigen.zsh
 !zsh/antigen/.antigenrc
+

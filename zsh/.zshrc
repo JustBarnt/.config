@@ -18,10 +18,10 @@ autoload -U +X compinit && compinit
 ############################################
 
 # Antigen: ZSH Plugin Manager
-source ${ZDOTDIR:-~}/antigen/antigen.zsh # Loads depending on where you saved your file
+source ${ADOTDIR:-~}/antigen.zsh # Loads depending on where you saved your file
 
 #Load Antigen Config
-antigen init ${ZDOTDIR:-~}/antigen/.antigenrc
+antigen init ${ADOTDIR:-~}/.antigenrc
 
 fpath+={$ZDOTDIR:-~}/functions.zsh
 
