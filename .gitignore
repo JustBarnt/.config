@@ -1,4 +1,5 @@
 neofetch/
+nvm/*
 lazygit/
 zsh/antigen/*
 zsh/.zcompdump
