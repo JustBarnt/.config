@@ -14,7 +14,7 @@ sudo apt install zsh
 chsh -s /bin/zsh [your-username]
 
 # Create .zshenv to ~/
-curl -L https://gist.githubusercontent.com/JustBarnt/1a57cd8cf20172425deef48d6f1a1f12/raw/fb2cc27296788489afdf10f20b0d7b13d8b83223/.zshenv -o ~/.zshenv
+curl -L https://gist.githubusercontent.com/JustBarnt/1a57cd8cf20172425deef48d6f1a1f12/raw/23c946dc80922c2dda0b104be017243a35477009/.zshenv -o ~/.zshenv
 
 # Create .zprofile to ~/
 curl -L https://gist.githubusercontent.com/JustBarnt/6da80a4fb8b76919c38fc27da8381667/raw/b08eb791012db5f20930ba436b3e64f82d9baef5/.zprofile -o ~/.zprofile
