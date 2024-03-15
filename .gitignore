@@ -1,2 +1,5 @@
 neofetch/
 lazygit/
+zsh/antigen/*
+!zsh/antigen/antigen.zsh
+!zsh/antigen/.antigenrc
