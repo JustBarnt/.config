@@ -20,7 +20,13 @@ curl -L https://gist.githubusercontent.com/JustBarnt/1a57cd8cf20172425deef48d6f1
 curl -L https://gist.githubusercontent.com/JustBarnt/6da80a4fb8b76919c38fc27da8381667/raw/b08eb791012db5f20930ba436b3e64f82d9baef5/.zprofile -o ~/.zprofile
 
 # Clones to .config folder in your home dir
-git clone https://github.com/justbarnt/.config/ ~/.config
+git clone https://github.com/justbarnt/.config/ ~/.temp-config
+mv .temp-config/* ~/.config
+
+# Download git credential-manager
+sudo apt install -y dotnet-sdk-7.0
+git credential-manager configure
+# follow steps for your prefered configuration
 ```
 ---
 ### Requirements
