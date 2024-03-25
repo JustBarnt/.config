@@ -7,13 +7,9 @@ local config = wezterm.config_builder()
 
 --[[ UI and Font Configuration ]]
 config.font = wezterm.font_with_fallback({
-	{
-		family = "MonoLisa Custom",
-		weight = "Medium",
-	},
-	"FiraCode Nerd Font",
+	{ family = "MonoLisa Custom", scale = 0.95, weight = "Regular" },
+	{ family = "FiraCode Nerd Font Mono", scale = 1.05, weight = "Regular" },
 })
-config.font_size = 12
 config.color_scheme = "tokyonight_storm"
 
 --[[ GUI Opts]]
@@ -24,6 +20,10 @@ config.tab_bar_at_bottom = true
 config.hide_tab_bar_if_only_one_tab = true
 config.freetype_load_target = "HorizontalLcd"
 config.window_decorations = "RESIZE"
+config.inactive_pane_hsb = {
+	saturation = 0.24,
+	brightness = 0.5,
+}
 
 --[[ Keymaps ]]
 config.leader = { key = "Space", mods = "CTRL", timeout_milliseconds = 1000 }
